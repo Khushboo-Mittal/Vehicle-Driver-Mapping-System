@@ -1,7 +1,7 @@
-```markdown
+```plaintext
 # Vehicle-Driver Mapping System
 
-A web application to manage a fleet of vehicles and drivers efficiently. This system is being developed to allow smooth operations, such as assigning drivers to vehicles, scheduling assignments, handling conflicts, and managing driver requests based on location.
+A web application to manage a fleet of vehicles and drivers efficiently. This system is being developed.
 
 ---
 
@@ -18,38 +18,33 @@ A web application to manage a fleet of vehicles and drivers efficiently. This sy
 
 **Tools & Technologies Used**
 - **Frontend:** React, Tailwind CSS
-- **Backend:** Node.js, Express.js, MongoDB
-- **Other:** Axios for API calls, Mongoose for database management
+- **Backend:** Node.js, MongoDB
+- **Other:** Axios for API calls
 
 ---
 
 ## Future Development Plans
 
-### **Level 1: Time Scheduling and Assignment Conflict Handling**
+### Level 1: Time Scheduling and Assignment Conflict Handling
 - Implement a scheduling system to assign drivers to vehicles for specific time periods.
 - Add logic to prevent overlapping assignments, ensuring a driver isn't mapped to multiple vehicles simultaneously.
 
-### **Level 2: Driver Assignment Requests and Acceptance**
+### Level 2: Driver Assignment Requests and Acceptance
 - Introduce a driver-specific page where drivers can view assignment requests.
 - Allow drivers to accept or reject requests.
 - Ensure that once a request is accepted, it becomes invalid for others.
 
-### **Level 3: Driver Search and Assignment Based on Location**
+### Level 3: Driver Search and Assignment Based on Location
 - Enhance the system to assign drivers based on proximity to a specific location.
 - Implement a search feature for finding drivers near a given location during assignment.
 - Consider driver availability, location, and scheduling conflicts in the search results.
 
----
+**Current Limitations:**
+- No real authentication system implemented; a dummy login is used.
+- Scheduling & Conflict Handling not yet implemented.
+- Driver Requests & Location-Based Features pending future development.
 
-## Current Limitations
-- **Authentication:** No real authentication system is implemented; a dummy login is used.
-- **Scheduling & Conflict Handling:** Not yet implemented.
-- **Driver Requests & Location-Based Features:** Pending future development.
-
----
-
-## How to Run the Project
-
+**How to Run the Project:**
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/vehicle-driver-mapping.git
@@ -66,25 +61,10 @@ A web application to manage a fleet of vehicles and drivers efficiently. This sy
    ```bash
    npm start
    ```
-5. Access the app at `http://localhost:3000`.
+5. Access the app at http://localhost:3000.
 
----
-
-## Future Vision
+**Future Vision:**
 This project aims to become a fully functional and robust system for fleet management, capable of handling real-world challenges like scheduling, conflict resolution, and location-based driver assignment. The modular approach ensures scalability and maintainability as new features are added.
-
----
 
 Feel free to contribute or share feedback!
 ```
-
-### Usage Instructions:
-1. Copy the content above.
-2. Save it as a file named `README.md` in your project root directory.
-3. Push the file to your GitHub repository:
-   ```bash
-   git add README.md
-   git commit -m "Added README file"
-   git push origin <branch-name>
-   ```
-
