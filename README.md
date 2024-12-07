@@ -1,4 +1,3 @@
-```plaintext
 # Vehicle-Driver Mapping System
 
 A web application to manage a fleet of vehicles and drivers efficiently. This system is being developed.
@@ -18,8 +17,8 @@ A web application to manage a fleet of vehicles and drivers efficiently. This sy
 
 **Tools & Technologies Used**
 - **Frontend:** React, Tailwind CSS
-- **Backend:** Node.js, MongoDB
-- **Other:** Axios for API calls
+- **Backend:** Node.js, Express.js, MongoDB
+- **Other:** Axios for API calls, Mongoose for database management
 
 ---
 
@@ -67,4 +66,3 @@ A web application to manage a fleet of vehicles and drivers efficiently. This sy
 This project aims to become a fully functional and robust system for fleet management, capable of handling real-world challenges like scheduling, conflict resolution, and location-based driver assignment. The modular approach ensures scalability and maintainability as new features are added.
 
 Feel free to contribute or share feedback!
-```
