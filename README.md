@@ -17,8 +17,8 @@ A web application to manage a fleet of vehicles and drivers efficiently. This sy
 
 **Tools & Technologies Used**
 - **Frontend:** React, Tailwind CSS
-- **Backend:** Node.js, Express.js, MongoDB
-- **Other:** Axios for API calls, Mongoose for database management
+- **Backend:** Node.js, MongoDB
+- **Other:** Axios for API calls
 
 ---
 
