@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+```markdown
+# Vehicle-Driver Mapping System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application to manage a fleet of vehicles and drivers efficiently. This system is being developed to allow smooth operations, such as assigning drivers to vehicles, scheduling assignments, handling conflicts, and managing driver requests based on location.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features Implemented
 
-### `npm start`
+### **Level 0: Basic Driver Creation and Vehicle-Driver Assignment**
+- **Driver Creation**
+  - Users can create and store driver profiles with attributes like name, phone number, and other necessary details.
+  - Drivers are searchable by their name and phone number using the UI.
+- **Vehicle-Driver Assignment**
+  - Vehicles are pre-populated with stored data.
+  - Users can manually assign or unassign drivers to vehicles.
+  - A driver can be assigned to only one vehicle at a time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Tools & Technologies Used**
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js, MongoDB
+- **Other:** Axios for API calls, Mongoose for database management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Future Development Plans
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Level 1: Time Scheduling and Assignment Conflict Handling**
+- Implement a scheduling system to assign drivers to vehicles for specific time periods.
+- Add logic to prevent overlapping assignments, ensuring a driver isn't mapped to multiple vehicles simultaneously.
 
-### `npm run build`
+### **Level 2: Driver Assignment Requests and Acceptance**
+- Introduce a driver-specific page where drivers can view assignment requests.
+- Allow drivers to accept or reject requests.
+- Ensure that once a request is accepted, it becomes invalid for others.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Level 3: Driver Search and Assignment Based on Location**
+- Enhance the system to assign drivers based on proximity to a specific location.
+- Implement a search feature for finding drivers near a given location during assignment.
+- Consider driver availability, location, and scheduling conflicts in the search results.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Current Limitations
+- **Authentication:** No real authentication system is implemented; a dummy login is used.
+- **Scheduling & Conflict Handling:** Not yet implemented.
+- **Driver Requests & Location-Based Features:** Pending future development.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Run the Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/vehicle-driver-mapping.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd vehicle-driver-mapping
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the server:
+   ```bash
+   npm start
+   ```
+5. Access the app at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Future Vision
+This project aims to become a fully functional and robust system for fleet management, capable of handling real-world challenges like scheduling, conflict resolution, and location-based driver assignment. The modular approach ensures scalability and maintainability as new features are added.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to contribute or share feedback!
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Usage Instructions:
+1. Copy the content above.
+2. Save it as a file named `README.md` in your project root directory.
+3. Push the file to your GitHub repository:
+   ```bash
+   git add README.md
+   git commit -m "Added README file"
+   git push origin <branch-name>
+   ```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
